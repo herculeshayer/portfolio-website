@@ -1,14 +1,16 @@
 import * as React from "react"
 import './../css/styles.css';
 
-import links from '../data/Data';
+
 
 //Components
 import ImageOfMe from '../components/ImageOfMe';
 import DisplayProjects from '../components/DisplayProjects';
 
+
+
 const bodyStyles = {
-  backgroundColor: "#000000",
+  backgroundColor: "#ffee9e",
   // marginLeft: "auto",
   // marginRight: "auto",
   // textAlign: "center"
@@ -18,12 +20,13 @@ const bodyStyles = {
 const pageStyles = {
   color: "#00E6CB",
   padding: 96,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-  fontSize: '125%'
+  fontFamily: "arial",
+  fontSize: '15px'
 }
 const paddingStyle = {
   paddingBottom: 100,
-  textAlign: "center"
+  textAlign: "center",
+  fontSize: "8vw",
 }
 
 
