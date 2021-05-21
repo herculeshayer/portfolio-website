@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import imageOfMe from '../images/me.jpeg';
+import imageOfMe from '../images/me-on-hike.jpg';
 
 const imageStyle = {
     display: "block",
