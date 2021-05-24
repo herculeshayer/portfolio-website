@@ -46,6 +46,7 @@ const gridItem = {
     textAlign: "center"
 }
 
+
 const DisplayProjects = () => {
 
     const projectLink = Data.map((project, key) => {
@@ -63,11 +64,7 @@ const DisplayProjects = () => {
                 
             
                 <p>{description}</p>
-                
-                    
-                    <ul>
-                    <li>{tools}</li>
-                    </ul>
+                <p>{tools}</p>
                 
                 
             </section>
@@ -78,7 +75,6 @@ const DisplayProjects = () => {
             <h3 style={{fontSize: "3vw", textAlign: "center", textShadow: "0.1vw 0.1vw #808080"}}>Projects</h3>
             <section className="grid-container" style={flexContainer}>
                 {projectLink}
-
             </section>
         </div>
     );
