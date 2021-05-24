@@ -1,4 +1,5 @@
-import * as React from 'react'
+import * as React from 'react';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
 import imageOfMe from '../images/me-on-hike.jpg';
 
@@ -23,7 +24,12 @@ const ImageOfMe = () => {
                 src={imageOfMe}
                 alt='My Face'
             />  
+            <div style={{fontSize: "36px", paddingTop: "25px"}}>
+                <a href="https://github.com/herculeshayer"><AiFillGithub style={{paddingRight: "10px"}}/></a> 
+                <a href="https://ca.linkedin.com/"><AiFillLinkedin /></a>
+            </div>
             <h1 style={{fontSize: "3vw",textShadow: "0.1vw 0.1vw #808080"}}>Hi, I'm Harman</h1>
+            
             <p style={{fontSize: "18px", paddingRight: "20px", paddingLeft: "20px"}}>
                 I'm a self-taught developer, I've accomplished this through
                 Lynda/LinkedInLearning, YouTube, and Udemy. I've decided to complete a
