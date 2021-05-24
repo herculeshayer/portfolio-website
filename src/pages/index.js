@@ -10,7 +10,7 @@ import DisplayProjects from '../components/DisplayProjects';
 
 
 const bodyStyles = {
-  backgroundColor: "#ffee9e",
+  backgroundColor: "#FDF1C3",
   // marginLeft: "auto",
   // marginRight: "auto",
   // textAlign: "center"
@@ -18,8 +18,8 @@ const bodyStyles = {
 
 // styles
 const pageStyles = {
-  color: "#00E6CB",
-  padding: 96,
+  color: "#1B2A41",
+  // padding: 96,
   fontFamily: "arial",
   fontSize: '15px'
 }
@@ -41,6 +41,7 @@ const IndexPage = () => {
       <ImageOfMe />
       <br />
       <DisplayProjects />
+  
     </article>
   </main>
     
