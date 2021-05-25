@@ -42,10 +42,6 @@ const ImageOfMe = () => {
                 and plan to complete my 3rd and 4th years in Computing Science.
                 <br/>
                 <br/>
-                I have a yearning for knowledge & desire for success. I'm willing to learn any and all 
-                technologies which will further advance my career and passions. 
-                <br/>
-                <br/>
                 Below are a few projects which I have completed. I am in the process of completing additional projects.
                 <br/>
                 <br/>
