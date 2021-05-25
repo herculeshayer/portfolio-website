@@ -31,12 +31,12 @@ const links = [
       text: "Portfolio Website",
       url: "https://github.com/herculeshayer/portfolio-website",
       liveSite: "https://hhayer.me/",
-      description: "A basic GatsbyJS webpage hosted on Netlify",
+      description: "A basic GatsbyJS webpage hosted on Netlify using Continuous Integration/Continuous Delivery practices",
       tools: "GatsbyJS, HTML, CSS, JavaScript",
       img: portImg
     },
     {
-      text: "Verbosity: Workout Blog",
+      text: "Grit & Gains: Workout Blog",
       url: "https://github.com/herculeshayer/verbosity-workoutblog",
       liveSite: "https://production.d3hg5atpe4nzu0.amplifyapp.com/",
       description: "A full-stack blog website hosted on AWS Amplify, the frontend is created using ReactJS and the backend uses NodeJS, MongoDB is the database and ExpressJS is used as the server",
