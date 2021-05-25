@@ -4,5 +4,12 @@ module.exports = {
     description: "Portfolio webpage showcasing development knowledge",
     author: "harman"
   },
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        icon: `src/images/mandala.svg`,
+      }
+    }
+  ],
 };
