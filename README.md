@@ -4,9 +4,11 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  Gatsby Portfolio Website
 </h1>
 
-## 🚀 Quick start
+## 🚀 Visit the webpage @ www.hhayer.me
+
+This portfolio is hosted on Netlify, it has been created using Gatsby.js
 
 
