@@ -16,6 +16,7 @@ This portfolio is hosted on Netlify, it has been created using Gatsby.js
 
 
 1. Ensure Git & Node are installed on your computer
-2. Visit a terminal on your machine and git clone _url_
-3. Run npm install inside project directory
-4. Run npm start 
+2. Visit a terminal on your machine and ```git clone https://github.com/herculeshayer/portfolio-website.git```
+3. Run ```npm install``` inside project directory
+4. ``` npm start ``` to spin up the development server
+5. Launch your browser & navigate to http://localhost:8000/
