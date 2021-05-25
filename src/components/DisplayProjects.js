@@ -50,7 +50,7 @@ const gridItem = {
 const DisplayProjects = () => {
 
     const projectLink = Data.map((project, key) => {
-        const { text, url, description, tools, img } = project;
+        const { text, url, description, tools, img, liveSite} = project;
         return (
             <section key={key} style={gridItem}>
     
@@ -59,7 +59,7 @@ const DisplayProjects = () => {
                 
                 <div>
                     <Link to={url}><button>Source Code</button></Link>
-                    <Link ><button>Live Demo</button></Link>
+                    <Link to={liveSite}><button>Live Demo</button></Link>
                 </div>
                 
             

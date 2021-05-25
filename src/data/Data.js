@@ -1,7 +1,8 @@
 // import HemoImage from "../images/blood-drop.svg";
 // import TODO from "../images/todo.png";
 // import Barbell from "../images/barbell.svg";
-import Blog from "../images/blog.svg";
+import Blog from "../images/coming-soon.svg";
+import portImg from "../images/desktop.svg";
 
 
 const links = [
@@ -26,10 +27,18 @@ const links = [
     //   tools: "MongoDB, ExpressJS, ReactJS, NodeJS, Git",
     //   img: Barbell
     // },
-  
+    {
+      text: "Portfolio Website",
+      url: "https://github.com/herculeshayer/portfolio-website",
+      liveSite: "https://hhayer.me/",
+      description: "A basic GatsbyJS webpage hosted on Netlify",
+      tools: "GatsbyJS, HTML, CSS, JavaScript",
+      img: portImg
+    },
     {
       text: "Verbosity: Workout Blog",
       url: "https://github.com/herculeshayer/verbosity-workoutblog",
+      liveSite: "https://production.d3hg5atpe4nzu0.amplifyapp.com/",
       description: "A full-stack blog website hosted on AWS Amplify, the frontend is created using ReactJS and the backend uses NodeJS, MongoDB is the database and ExpressJS is used as the server",
       tools: "MongoDB, ExpressJS, ReactJS, NodeJS, AWS Amplify, Git",
       img: Blog
