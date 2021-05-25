@@ -12,9 +12,9 @@
 This portfolio is hosted on Netlify, it has been created using Gatsby.js
 
 
-## Run locally
+## How to Run locally
 
-To run this project locally
+
 1. Ensure Git & Node are installed on your computer
 2. Visit a terminal on your machine and git clone _url_
 3. Run npm install inside project directory
