@@ -39,7 +39,7 @@ const ImageOfMe = () => {
                 <br/>
                 I've recieved my diploma in Computer Information Systems (CIS) from Kwantlen 
                 Polytechnic University, and have since transferred my credits to Thompson River University
-                and plan to complete my 3rd and 4th years in Computing Science.
+                where I plan to complete my Bachelor's degree in Computing Science.
                 <br/>
                 <br/>
                 Below are a few projects which I have completed. I am in the process of completing additional projects.

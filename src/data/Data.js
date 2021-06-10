@@ -37,9 +37,9 @@ const links = [
     },
     {
       text: "Grit & Gains: Workout Blog",
-      url: "https://github.com/herculeshayer/verbosity-workoutblog",
-      liveSite: "https://production.d3hg5atpe4nzu0.amplifyapp.com/",
-      description: "A full-stack blog website hosted on AWS Amplify, the frontend is created using ReactJS and the backend uses NodeJS, MongoDB is the database and ExpressJS is used as the server",
+      url: "https://github.com/herculeshayer/grit-and-gain",
+      liveSite: "https://master.d3i8l79hqpk5g.amplifyapp.com/",
+      description: "A full-stack blog website hosted on AWS Amplify usng CI/CD workflows, the frontend is created using ReactJS and the backend uses NodeJS, MongoDB is the database and ExpressJS is used as the server",
       tools: "MongoDB, ExpressJS, ReactJS, NodeJS, AWS Amplify, Git",
       img: Blog
     },
