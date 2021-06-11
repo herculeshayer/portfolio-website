@@ -1,7 +1,7 @@
 // import HemoImage from "../images/blood-drop.svg";
 // import TODO from "../images/todo.png";
 // import Barbell from "../images/barbell.svg";
-import Blog from "../images/coming-soon.svg";
+import Blog from "../images/pyre.svg";
 import portImg from "../images/desktop.svg";
 
 
@@ -36,7 +36,7 @@ const links = [
       img: portImg
     },
     {
-      text: "Grit & Gains: Workout Blog",
+      text: "Grit & Gain: Workout Blog",
       url: "https://github.com/herculeshayer/grit-and-gain",
       liveSite: "https://master.d3i8l79hqpk5g.amplifyapp.com/",
       description: "A full-stack blog website hosted on AWS Amplify usng CI/CD workflows, the frontend is created using ReactJS and the backend uses NodeJS, MongoDB is the database and ExpressJS is used as the server",
