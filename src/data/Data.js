@@ -38,7 +38,7 @@ const links = [
     {
       text: "Grit & Gain: Workout Blog",
       url: "https://github.com/herculeshayer/grit-and-gain",
-      liveSite: "https://master.d3i8l79hqpk5g.amplifyapp.com/",
+      liveSite: "https://main.d3i8l79hqpk5g.amplifyapp.com/",
       description: "A full-stack blog website hosted on AWS Amplify usng CI/CD workflows, the frontend is created using ReactJS and the backend uses NodeJS, MongoDB is the database and ExpressJS is used as the server",
       tools: "MongoDB, ExpressJS, ReactJS, NodeJS, AWS Amplify, Git",
       img: Blog
