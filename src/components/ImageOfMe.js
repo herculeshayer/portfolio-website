@@ -30,7 +30,7 @@ const ImageOfMe = () => {
             </div>
             <h1 style={{fontSize: "3vw",textShadow: "0.1vw 0.1vw #808080"}}>Hi, I'm Harman</h1>
             
-            <p style={{fontSize: "18px", paddingRight: "20px", paddingLeft: "20px"}}>
+            <p style={{fontSize: "20px", paddingRight: "10vw", paddingLeft: "10vw"}}>
                 I'm a self-taught developer, accomplished through
                 Lynda/LinkedInLearning, YouTube, and Udemy. I've decided to complete a
                 few projects which will hopefully demonstrate my knowledge in both Frontend 
