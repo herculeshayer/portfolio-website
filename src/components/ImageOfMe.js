@@ -40,7 +40,7 @@ const ImageOfMe = () => {
                 <br/><br/>
                 <FiSun /> Computer Information Systems Diploma from Kwantlen Polytechnic University 
                 <br/><br/>
-                <HiOutlineFire/> 3rd year Thompson River University student pursuing a Bachelor's degree in Computing Science
+                <HiOutlineFire/> Thompson River University student (3<sup>rd</sup> year) pursuing a bachelor's degree in Computing Science
                 <br/><br/>
                 <HiOutlineGlobe/> Below are a few projects which I have completed. 
                 <br/>
