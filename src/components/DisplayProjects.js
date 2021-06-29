@@ -54,11 +54,11 @@ const DisplayProjects = () => {
         return (
             <section key={key} style={gridItem}>
     
-                <h2 style={{textAlign: "center"}}>{text}</h2>
+                <h2 style={{textAlign: "center", fontSize: "3vw"}}>{text}</h2>
                 <img style={imageStyle} src={img} alt='site homepage'/>
                 
-                <div>
-                    <Link to={url}><button>Source Code</button></Link>
+                <div style={{marginTop: "10px"}}>
+                    <Link to={url} style={{marginRight: "2px"}}><button>Source Code</button></Link>
                     <Link to={liveSite}><button>Live Demo</button></Link>
                 </div>
                 
@@ -72,7 +72,7 @@ const DisplayProjects = () => {
     })
     return (
         <div>
-            <h3 style={{fontSize: "3vw", textAlign: "center", textShadow: "0.1vw 0.1vw #808080"}}>Projects</h3>
+            <h3 style={{fontSize: "4vw", textAlign: "center", textShadow: "0.1vw 0.1vw #808080"}}>Projects</h3>
             <section className="grid-container" style={flexContainer}>
                 {projectLink}
             </section>
