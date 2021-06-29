@@ -54,7 +54,7 @@ const DisplayProjects = () => {
         return (
             <section key={key} style={gridItem}>
     
-                <h2 style={{textAlign: "center", fontSize: "3vw"}}>{text}</h2>
+                <h2 style={{textAlign: "center", fontSize: "2.5vw"}}>{text}</h2>
                 <img style={imageStyle} src={img} alt='site homepage'/>
                 
                 <div style={{marginTop: "10px"}}>
