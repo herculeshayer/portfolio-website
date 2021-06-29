@@ -38,9 +38,9 @@ const ImageOfMe = () => {
                 
                   <MdFingerprint /> { `<Self-Taught Software Developer />` }
                 <br/><br/>
-                <FiSun /> Diploma in Computer Information Systems from Kwantlen Polytechnic University 
+                <FiSun /> Computer Information Systems Diploma from Kwantlen Polytechnic University 
                 <br/><br/>
-                <HiOutlineFire/> Student at Thompson River University pursuing a Bachelor's degree in Computing Science
+                <HiOutlineFire/> 3rd year Thompson River University student pursuing a Bachelor's degree in Computing Science
                 <br/><br/>
                 <HiOutlineGlobe/> Below are a few projects which I have completed. 
                 <br/>
