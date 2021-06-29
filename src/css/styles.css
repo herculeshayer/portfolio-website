@@ -11,17 +11,35 @@ h5 {
 
 button {
     padding: 0.6vw;
+    background-color: #D3EEE8;
+    border-radius: 40%;
+    border-style:hidden;
+    font-size: 12px;
 }
 
 @media screen and (min-width: 576px)
 {
     .grid-container {
-        grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+        grid-template-columns: repeat(auto-fill,minmax(275px,1fr));
+    }
+    
+}
+@media screen and (min-width: 1536px) {
+    h2 {
+        font-size: 1.75vw !important;
     }
     
 }
 @media screen and (max-width: 576px) {
     p {
         font-size: 10px !important;
+    }
+    button {
+        padding: 0.2px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    p {
+        font-size: 16px !important;
     }
 }
