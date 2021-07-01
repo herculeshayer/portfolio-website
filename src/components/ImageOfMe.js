@@ -31,21 +31,23 @@ const ImageOfMe = () => {
             </div>
             <h1 style={{fontSize: "5vw",textShadow: "0.1vw 0.1vw #808080"}}>Hi, I'm Harman</h1>
             
-            <p style={{fontSize: "20px", paddingRight: "10vw", paddingLeft: "10vw"}}>
             
+            <div style={{fontSize: "20px", paddingRight: "10vw", paddingLeft: "10vw"}}>
                 
-                <GoPrimitiveDot /> Self-Taught Software Developer
-                <br/><br/>
-                <GoPrimitiveDot /> Computer Information Systems Diploma from Kwantlen Polytechnic University 
-                <br/><br/>
-                <GoPrimitiveDot /> Thompson River University student (3<sup>rd</sup> year) pursuing a bachelor's degree in Computing Science
-                <br/><br/>
-                <GoPrimitiveDot /> Below are a few projects which I have completed. 
-                <br/>
-                Thanks for stopping by! &#128516;
-                <br/>
                 
-            </p>
+                
+                <p><GoPrimitiveDot /> A Self-Taught Software Developer</p>
+                
+                <p><GoPrimitiveDot /> Computer Information Systems Diploma graduate from Kwantlen Polytechnic University </p>
+                
+                <p><GoPrimitiveDot /> Thompson River University student (3<sup>rd</sup> year) pursuing a bachelor's degree in Computing Science</p>
+                
+                <p style={{paddingTop: "2rem"}}>Below are a few projects which I have completed. <br/> Thanks for stopping by! &#128516;</p>
+                
+                
+                
+                
+            </div>
       </article>
     );
 }
