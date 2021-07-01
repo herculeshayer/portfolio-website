@@ -16,6 +16,10 @@ button {
     border-style:hidden;
     font-size: 12px;
 }
+button:hover {
+    background-color: #F5CCD7;
+    cursor: pointer;
+}
 
 @media screen and (min-width: 576px)
 {
