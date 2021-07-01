@@ -1,8 +1,6 @@
 import * as React from 'react';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
-import { MdFingerprint } from 'react-icons/md';
-import { FiSun} from 'react-icons/fi';
-import { HiOutlineFire, HiOutlineGlobe } from 'react-icons/hi';
+import { GoPrimitiveDot } from 'react-icons/go';
 
 import imageOfMe from '../images/my-face/spike-ball-fixed.jpg';
 
@@ -36,13 +34,13 @@ const ImageOfMe = () => {
             <p style={{fontSize: "20px", paddingRight: "10vw", paddingLeft: "10vw"}}>
             
                 
-                  <MdFingerprint /> { `<Self-Taught Software Developer />` }
+                <GoPrimitiveDot /> Self-Taught Software Developer
                 <br/><br/>
-                <FiSun /> Computer Information Systems Diploma from Kwantlen Polytechnic University 
+                <GoPrimitiveDot /> Computer Information Systems Diploma from Kwantlen Polytechnic University 
                 <br/><br/>
-                <HiOutlineFire/> Thompson River University student (3<sup>rd</sup> year) pursuing a bachelor's degree in Computing Science
+                <GoPrimitiveDot /> Thompson River University student (3<sup>rd</sup> year) pursuing a bachelor's degree in Computing Science
                 <br/><br/>
-                <HiOutlineGlobe/> Below are a few projects which I have completed. 
+                <GoPrimitiveDot /> Below are a few projects which I have completed. 
                 <br/>
                 Thanks for stopping by! &#128516;
                 <br/>
