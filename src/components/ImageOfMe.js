@@ -8,7 +8,8 @@ const imageStyle = {
     display: "block",
     marginLeft: "auto",
     marginRight: "auto",
-    width: "22vw",
+    width: "50vw",
+    maxWidth: "450px",
     height: "auto",
     borderRadius: '25%',
 }
@@ -41,6 +42,11 @@ const ImageOfMe = () => {
                 <p><GoPrimitiveDot /> Computer Information Systems Diploma graduate from Kwantlen Polytechnic University </p>
                 
                 <p><GoPrimitiveDot /> Thompson River University student (3<sup>rd</sup> year) pursuing a bachelor's degree in Computing Science</p>
+
+                <p><GoPrimitiveDot /> Recovering Ben & Jerrys ice cream addict</p>
+                
+                <p><GoPrimitiveDot /> Spikeball Olympic gold medalist</p>
+
                 
                 <p style={{paddingTop: "2rem"}}>Below are a few projects which I have completed. <br/> Thanks for stopping by! &#128516;</p>
                 
