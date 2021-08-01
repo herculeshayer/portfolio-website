@@ -39,7 +39,7 @@ const links = [
     {
       text: "Grit & Gain: Workout Blog",
       url: "https://github.com/herculeshayer/grit-and-gain",
-      liveSite: "https://www.gritandgain.xyz/",
+      liveSite: "https://gritandgain.netlify.app/",
       description: "A full-stack MERN blog website hosted on AWS Amplify using CI/CD workflows, the frontend is created using ReactJS and the backend uses NodeJS, MongoDB is the database and ExpressJS is used as the server",
       tools: "Tools: MongoDB, ExpressJS, ReactJS, NodeJS, AWS Amplify, Mongo Atlas, Git, RESTful API",
       img: Blog
@@ -47,7 +47,7 @@ const links = [
     {
       text: "MiniDoro: Pomodoro Timer",
       url: "https://github.com/herculeshayer/minidoro",
-      liveSite: "https://github.com/herculeshayer/minidoro",
+      liveSite: "https://minidoro.herokuapp.com/",
       description: "A simple browser based pomodoro timer",
       tools: "Tools: React, JavaScript, CSS, HTML, Git",
       img: tomato
