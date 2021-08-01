@@ -21,11 +21,11 @@ const container = {
 const ImageOfMe = () => {
     return (
         <article style={container}>
-            <img 
+            {/* <img 
                 style={imageStyle}
                 src={imageOfMe}
                 alt='My Face'
-            />  
+            />   */}
             <div style={{fontSize: "36px", paddingTop: "25px"}}>
                 <a href="https://github.com/herculeshayer" alt="link to personal github account"><AiFillGithub style={{paddingRight: "10px"}}/></a> 
                 <a href="https://www.linkedin.com/in/harman-hayer/" alt="link to personal linkedin"><AiFillLinkedin /></a>
