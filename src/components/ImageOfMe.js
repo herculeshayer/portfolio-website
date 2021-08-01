@@ -26,12 +26,12 @@ const ImageOfMe = () => {
                 src={imageOfMe}
                 alt='My Face'
             />   */}
+            
+            <h1 style={{fontSize: "5vw",textShadow: "0.1vw 0.1vw #808080"}}>Hi, I'm Harman</h1>
             <div style={{fontSize: "36px", paddingTop: "25px"}}>
                 <a href="https://github.com/herculeshayer" alt="link to personal github account"><AiFillGithub style={{paddingRight: "10px"}}/></a> 
                 <a href="https://www.linkedin.com/in/harman-hayer/" alt="link to personal linkedin"><AiFillLinkedin /></a>
             </div>
-            <h1 style={{fontSize: "5vw",textShadow: "0.1vw 0.1vw #808080"}}>Hi, I'm Harman</h1>
-            
             
             <div style={{fontSize: "20px", paddingRight: "10vw", paddingLeft: "10vw"}}>
                 
