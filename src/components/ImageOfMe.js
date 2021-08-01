@@ -45,7 +45,7 @@ const ImageOfMe = () => {
 
                 <p><GoPrimitiveDot /> Recovering Ben & Jerrys ice cream addict</p>
                 
-                <p><GoPrimitiveDot /> Spikeball Olympic gold medalist</p>
+                {/* <p><GoPrimitiveDot /> Spikeball Olympic gold medalist</p> */}
 
                 
                 <p style={{paddingTop: "2rem"}}>Below are a few projects which I have completed. <br/> Thanks for stopping by! &#128516;</p>
