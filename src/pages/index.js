@@ -6,7 +6,7 @@ import './../css/styles.css';
 //Components
 
 
-import MainPage from '../components/MainPage';
+import MainPage from './MainPage';
 
 
 // styles

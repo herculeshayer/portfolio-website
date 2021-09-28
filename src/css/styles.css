@@ -8,48 +8,7 @@ h5, h1 {
     overflow-x: hidden; 
 }
 body {
-    background-color: #FDF1C3;
+    background-color: rgb(255, 255, 250)
 }
 
-button {
-    padding: 0.6vw;
-    background-color: #D3EEE8;
-    border-radius: 40%;
-    border-style:hidden;
-    font-size: 12px;
-}
-button:hover {
-    background-color: #F5CCD7;
-    cursor: pointer;
-}
 
-@media screen and (min-width: 576px)
-{
-    .grid-container {
-        grid-template-columns: repeat(auto-fill,minmax(275px,1fr));
-    }
-    
-}
-@media screen and (min-width: 1536px) {
-    h2 {
-        font-size: 1.75vw !important;
-    }
-    h1, h3 {
-        font-size: 50px !important;
-    }
-    
-}
-@media screen and (max-width: 576px) {
-    p {
-        font-size: 10px !important;
-    }
-    button {
-        padding: 0.2px;
-    }
-}
-@media screen and (max-width: 1024px) {
-    p {
-        font-size: 16px !important;
-    }
-    
-}
