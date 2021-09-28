@@ -4,10 +4,9 @@ import './../css/styles.css';
 
 
 //Components
-import ImageOfMe from '../components/ImageOfMe';
-import DisplayProjects from '../components/DisplayProjects';
 
 
+import MainPage from '../components/MainPage';
 
 
 // styles
@@ -25,9 +24,7 @@ const IndexPage = () => {
     
     <title>Harman's Portfolio</title>
     <article style={pageStyles}>
-      <ImageOfMe />
-      <br />
-      <DisplayProjects />
+      <MainPage />
   
     </article>
   </main>
