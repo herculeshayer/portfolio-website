@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap");
+body {
+  font-family: 'Oranienbaum', serif;
+  font-weight: 700;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  font-size: 2rem;
+}
+
+footer ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+footer ul li {
+  padding-bottom: 8px;
+}
+
+footer ul li a {
+  text-decoration: none;
+}
+
+footer ul li a:visited {
+  color: black;
+}
+
+footer ul li a:hover {
+  -webkit-text-decoration-color: black;
+          text-decoration-color: black;
+  border-bottom: 1px solid black;
+}
+
+footer ul li a:active {
+  color: #414141;
+}
+
+footer h3 {
+  text-align: center;
+}
+
+footer h6 {
+  text-align: center;
+}
+
+nav {
+  display: inline-block;
+  text-align: center;
+  font-size: 1rem;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-right: 40px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+nav ul li a:visited {
+  color: black;
+}
+
+nav ul li a:hover {
+  border-bottom: 1px solid black;
+}
+
+nav ul li a:active {
+  color: #414141;
+}
+/*# sourceMappingURL=index.css.map */
