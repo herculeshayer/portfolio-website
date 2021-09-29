@@ -3,7 +3,16 @@ import * as React from 'react';
 
 const Home = () => {
     return(
-        <h1>Home</h1>
+        <section className="home-flex-container">
+
+            <div className="home-flex-item">
+                Short Intro
+            </div>
+            <div className="home-flex-item">
+                Projects
+            </div>
+
+        </section>
     );
 }
 
