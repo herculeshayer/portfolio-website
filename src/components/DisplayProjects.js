@@ -6,46 +6,6 @@ import Data from "../data/Data";
 // import myBlog from "../images/my-blog.jpg";
 
 
-const imageStyle = {
-    display: "block",
-    // minWidth: "250px",
-    maxWidth: "9.0vw",
-    height: "auto",
-    margin: "auto",
-    width: "50%"
-}
-const flexContainer = {
-    display: "grid",
-    // backgroundColor: "white",
-    
-    // gridTemplateColumns: "repeat(auto-fill, minmax(338.8px,1fr)",
-    gridTemplateRows: "auto 1fr",
-
-    gridColumnGap: "2rem",
-    gridRowGap: "1rem",
-
-    // border: "2px solid black",
-    // borderRadius: "5px",
-    
-    // padding: "50px",
-    minWidth: "20vw",
-    height: "auto",
-    // wordWrap: "break-word"
-    margin: "auto",
-    width: "50%",
-    
-}
-const gridItem = {
-    // display: "inline-block",
-    // marginRight: "10px",
-    padding: "10px",
-    border: "2px solid black",
-    borderRadius: "5px",
-    backgroundColor: "white",
-    // justifyContent: "center"
-    textAlign: "center"
-}
-
 
 const DisplayProjects = () => {
 
