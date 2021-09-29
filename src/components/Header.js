@@ -1,8 +1,15 @@
 import * as React from 'react';
 
+
+//Styles
+// import './../styles/styles.css';
+
 const Header = () => {
     return(
-        <h1>Header</h1>
+        <header class="header-class">
+            <h1>harman hayer.</h1>
+
+        </header>
     );
 }
 
