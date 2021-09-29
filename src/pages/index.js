@@ -1,20 +1,18 @@
 import * as React from "react"
-import './../css/styles.css';
+import './../styles/styles.css'
 
 
 
 //Components
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
+import Home from './Home';
 
-import MainPage from './MainPage';
 
 
 // styles
-const pageStyles = {
-  color: "#1B2A41",
-  fontFamily: "arial",
-  fontSize: '15px'
-}
+
 
 
 // markup
@@ -23,10 +21,10 @@ const IndexPage = () => {
   <main>
     
     <title>Harman's Portfolio</title>
-    <article style={pageStyles}>
-      <MainPage />
+      <Header />
+      <Home />
+      <Footer />
   
-    </article>
   </main>
     
   )
