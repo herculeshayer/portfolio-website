@@ -1,0 +1,37 @@
+nav {
+    display: inline-block;
+    text-align: center;
+    font-size: 1rem;
+    width: 100%;
+
+    ul {
+        list-style-type: none;
+        // overflow: hidden;
+
+        li {
+            display: inline-block;
+            
+            padding-right: 40px;
+
+            a {
+                text-decoration: none;
+            }
+            a:visited {
+                color: black;
+            }
+            a:hover {
+                // text-decoration: underline;
+                // text-decoration-color: black;
+                // text-decoration-thickness: 25px;
+                // border-top: 3px solid;
+                border-bottom: 1px solid black;
+                // border-bottom-color: black;
+            }
+            a:active {
+                color: rgb(65, 65, 65);
+            }
+
+        }
+    }
+        
+}
