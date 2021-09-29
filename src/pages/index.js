@@ -1,17 +1,18 @@
 import * as React from "react"
-import './../styles/styles.css'
+
+//styles
+import './../css/index.css'
 
 
 
 //Components
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import NavBar from "./../components/NavBar"
 
+
+//Pages
 import Home from './Home';
-
-
-
-// styles
 
 
 
@@ -21,7 +22,10 @@ const IndexPage = () => {
   <main>
     
     <title>Harman's Portfolio</title>
+    
+    
       <Header />
+      <NavBar />
       <Home />
       <Footer />
   
