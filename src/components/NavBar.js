@@ -6,7 +6,7 @@ const NavBar = () => {
         <nav>
             <ul>
                 <li><Link to="/">home</Link></li>
-                <li><a href="./../assets/resume.pdf">resume</a></li>
+                <li><a href="https://resume.creddle.io/resume/47zeay722f2">resume</a></li>
                 <li><Link to="/Projects">projects</Link></li>
                 <li><Link to="/About">about</Link></li>
             </ul>
