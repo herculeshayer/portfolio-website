@@ -8,8 +8,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        icon: `src/images/mandala.svg`,
+        icon: `src/assets/images/mandala.svg`,
       }
-    }
+    },
   ],
 };
