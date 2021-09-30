@@ -7,8 +7,8 @@ const NavBar = () => {
             <ul>
                 <li><Link to="/">home</Link></li>
                 <li><a href="https://resume.creddle.io/resume/47zeay722f2">resume</a></li>
-                <li><Link to="/Projects">projects</Link></li>
-                <li><Link to="/About">about</Link></li>
+                <li><Link to="/projects">projects</Link></li>
+                <li><Link to="/about">about</Link></li>
             </ul>
         </nav>
     );

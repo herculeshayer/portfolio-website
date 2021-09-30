@@ -1,23 +1,23 @@
 import * as React from 'react';
 import Footer from '../components/Footer';
-import Header from '../components/Header';
 import NavBar from '../components/NavBar';
 
+import Header from './../components/Header'
 
 //styles
 import './../css/index.css'
 
-const About = () => {
+const Projects = () => {
     return(
         <section>
+
             <Header />
             <NavBar />
-                <h1>About</h1>
+                <h1>Projects</h1>
             <Footer />
-
 
         </section>
     );
 }
 
-export default About;
+export default Projects;

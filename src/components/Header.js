@@ -6,7 +6,7 @@ import * as React from 'react';
 
 const Header = () => {
     return(
-        <header className="header-class">
+        <header className="name-header">
             <h1>harman hayer.</h1>
 
         </header>

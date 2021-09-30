@@ -19,7 +19,7 @@ import Home from './Home';
 // markup
 const IndexPage = () => {
   return (
-  <main>
+  <section>
     
     <title>Harman's Portfolio</title>
     
@@ -29,7 +29,7 @@ const IndexPage = () => {
       <Home />
       <Footer />
   
-  </main>
+  </section>
     
   )
 }

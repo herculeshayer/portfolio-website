@@ -1,3 +1,5 @@
+$primary-color: black;
+
 nav {
     display: inline-block;
     text-align: center;
@@ -16,15 +18,18 @@ nav {
             a {
                 text-decoration: none;
             }
+            a:link {
+                color: $primary-color;
+            }
             a:visited {
-                color: black;
+                color: $primary-color;
             }
             a:hover {
                 // text-decoration: underline;
                 // text-decoration-color: black;
                 // text-decoration-thickness: 25px;
                 // border-top: 3px solid;
-                border-bottom: 1px solid black;
+                border-bottom: 1px solid $primary-color;
                 // border-bottom-color: black;
             }
             a:active {
