@@ -1,9 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap");
 body {
   font-family: 'Oranienbaum', serif;
-  font-weight: 700;
+  font-weight: 400;
   margin: 0 auto;
   padding: 0;
+}
+
+.home-flex-container {
+  text-align: center;
+  padding: 250px 0;
+}
+
+.home-flex-container .home-flex-item {
+  text-align: center;
 }
 
 header {
@@ -29,8 +38,6 @@ footer ul li a:visited {
 }
 
 footer ul li a:hover {
-  -webkit-text-decoration-color: black;
-          text-decoration-color: black;
   border-bottom: 1px solid black;
 }
 
@@ -38,12 +45,17 @@ footer ul li a:active {
   color: #414141;
 }
 
-footer h3 {
-  text-align: center;
+footer ul li .mail {
+  color: black;
 }
 
-footer h6 {
-  text-align: center;
+footer ul li .mail:visited {
+  color: black;
+}
+
+footer #page-end {
+  padding-top: 25px;
+  font-size: 0.7rem;
 }
 
 nav {
