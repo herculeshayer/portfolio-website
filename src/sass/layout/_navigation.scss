@@ -17,26 +17,20 @@ nav {
 
             a {
                 text-decoration: none;
-            }
-            a:link {
-                color: $primary-color;
-            }
-            a:visited {
-                color: $primary-color;
-            }
-            a:hover {
-                // text-decoration: underline;
-                // text-decoration-color: black;
-                // text-decoration-thickness: 25px;
-                // border-top: 3px solid;
-                border-bottom: 1px solid $primary-color;
-                // border-bottom-color: black;
-            }
-            a:active {
-                color: rgb(65, 65, 65);
+                :link, :visited {
+                    color: $primary-color;
+                }
+                :hover {
+                    border-bottom: 1px solid $primary-color;
+                    
+                }
             }
 
         }
     }
-        
+}
+@media only screen and (max-width: 450px) {
+    nav ul li {
+        margin-top: 3rem;
+    }
 }
