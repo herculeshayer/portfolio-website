@@ -59,25 +59,19 @@ body {
   color: black;
 }
 
-#grid #grid-project #grid-project-item a {
-  -webkit-transition: all 2s;
-  transition: all 2s;
-}
-
-#grid #grid-project #grid-project-item a:hover {
-  -webkit-transform: translateZ(-100px);
-          transform: translateZ(-100px);
-}
-
 #grid #grid-project #grid-project-item .single-project {
   text-decoration: none;
-  -webkit-transition-timing-function: ease-out;
-          transition-timing-function: ease-out;
   color: black;
 }
 
 #grid #grid-project #grid-project-item .single-project p {
   font-size: 1.2rem;
+}
+
+#grid #grid-project #grid-project-item .single-project:hover {
+  -webkit-transition: all 2s ease-out 0.5s;
+  transition: all 2s ease-out 0.5s;
+  font-size: 2.8rem;
 }
 
 @media only screen and (max-width: 1000px) {
