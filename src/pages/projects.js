@@ -4,8 +4,6 @@ import NavBar from '../components/NavBar';
 
 import Header from './../components/Header'
 
-//styles
-import './../css/index.css'
 
 const Projects = () => {
     return(

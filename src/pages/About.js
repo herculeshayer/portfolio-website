@@ -4,8 +4,6 @@ import Header from '../components/Header';
 import NavBar from '../components/NavBar';
 
 
-//styles
-import './../css/index.css'
 
 const About = () => {
     return(
