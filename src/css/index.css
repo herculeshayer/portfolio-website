@@ -59,17 +59,25 @@ body {
   color: black;
 }
 
+#grid #grid-project #grid-project-item a {
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+#grid #grid-project #grid-project-item a:hover {
+  -webkit-transform: translateZ(-100px);
+          transform: translateZ(-100px);
+}
+
 #grid #grid-project #grid-project-item .single-project {
   text-decoration: none;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
   color: black;
 }
 
-#grid #grid-project #grid-project-item .single-project :link, #grid #grid-project #grid-project-item .single-project :visited {
-  color: black;
-}
-
-#grid #grid-project #grid-project-item p {
-  font-size: 0.9rem;
+#grid #grid-project #grid-project-item .single-project p {
+  font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -112,6 +120,7 @@ body {
 }
 
 footer ul {
+  font-size: 1.4rem;
   text-align: center;
   list-style-type: none;
 }
@@ -146,13 +155,13 @@ footer ul li .mail:visited {
 
 footer #page-end {
   padding-top: 25px;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 }
 
 nav {
   display: inline-block;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.3rem;
   width: 100%;
 }
 
@@ -162,24 +171,41 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  padding-right: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 nav ul li a {
   text-decoration: none;
 }
 
-nav ul li a :link, nav ul li a :visited {
+nav ul li a:link, nav ul li a:visited {
   color: black;
 }
 
-nav ul li a :hover {
+nav ul li a:hover {
   border-bottom: 1px solid black;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 1100px) {
   nav ul li {
-    margin-top: 3rem;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  nav ul li {
+    padding-top: 2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  nav ul li {
+    display: block;
+    padding-top: 2rem;
   }
 }
 /*# sourceMappingURL=index.css.map */
