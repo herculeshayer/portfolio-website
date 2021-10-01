@@ -15,13 +15,9 @@ $primary-color: black;
     grid-template-columns: 1fr 1fr;
     
     margin: 1rem auto 1rem auto;
-    // margin: 3% auto 3% auto;
-    
    h1 {
        margin: 10px 4px;
    }
-
-
     #grid-bio-item {
         justify-content: start;
         
@@ -42,18 +38,29 @@ $primary-color: black;
             font-size: 2.2rem;
             color: black;
             
+
+            
+            a {
+                // color: red;
+                transition: all 2s;
+            }
+            a:hover {
+                
+                transform: translateZ(-100px);
+            }
             .single-project {
                 text-decoration: none;
+                
+                transition-timing-function: ease-out;
                 color: $primary-color;
 
-                :link, :visited {
-                    color: $primary-color;
+                p {
+                    font-size: 1.2rem;
                 }
 
             }
-            p {
-                font-size: 0.9rem;
-            }
+
+            
         }
     }
 }
