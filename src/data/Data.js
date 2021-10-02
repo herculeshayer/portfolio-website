@@ -37,16 +37,16 @@ const projectpageLinks = [
     text: "grit & gain",
     source: "https://github.com/herculeshayer/grit-and-gain",
     live: "https://gritandgain.netlify.app/",
-    description: "a full-stack mern blog website hosted on aws amplify using ci/cd workflows, the frontend is created using reactjs and the backend uses nodejs, mongodb is the database and expressjs is used as the server",
-    tools: "react, node, express, mongo, aws",
+    description: "a full-stack mern blog website hosted on aws utilizing ci/cd. the frontend is created using react and the backend uses node, express, and mongodb",
+    tools: "react, node, express, mongodb + mongodb atlas, aws",
     
   },
   {
     text: "minidoro",
     source: "https://github.com/herculeshayer/minidoro",
     live: "https://minidoro.herokuapp.com/",
-    description: "a full stack application created using javascript. users can register, login, and run + track their pomodoros(work sessions)",
-    tools: "html, sass, javascript, node, express, jwt, heroku",
+    description: "a full stack application created using node and postgresql. users have access to register, login, and work session tracking functionality",
+    tools: "html, sass, javascript, node, express, jwt, postgresql, heroku",
     
   },
   {
@@ -68,7 +68,7 @@ const projectpageLinks = [
     text: "portfolio",
     source: "https://github.com/herculeshayer/portfolio-website",
     live: "https://hhayer.me/",
-    description: "a basic gatsbyjs webpage hosted on netlify using continuous integration/continuous delivery workflows",
+    description: "a portfolio webpage created using gatsby and hosted on netlify",
     tools: "html, sass, gatsby, netlify",
   },
   
