@@ -23,7 +23,7 @@ body {
       grid-template-rows: auto;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
-  margin: 1rem auto 1rem auto;
+  margin: 0rem auto 0rem auto;
 }
 
 #grid h1 {
@@ -69,8 +69,8 @@ body {
 }
 
 #grid #grid-project #grid-project-item .single-project:hover {
-  -webkit-transition: all 2s ease-out 0.5s;
-  transition: all 2s ease-out 0.5s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
   font-size: 2.8rem;
 }
 
@@ -108,9 +108,61 @@ body {
   }
 }
 
+#flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1rem auto 1rem auto;
+  width: 45rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#flex #flex-item {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+#flex #flex-item a {
+  text-decoration: none;
+  color: black;
+}
+
+#flex #flex-item h1 {
+  margin-bottom: 0.5rem;
+}
+
+#flex #flex-item p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+#flex #flex-item .single-proj:hover h1 {
+  -webkit-transition: all 1s ease-in-out 0s;
+  transition: all 1s ease-in-out 0s;
+  font-size: 3rem;
+}
+
+@media only screen and (max-width: 700px) {
+  #flex {
+    width: 25rem;
+  }
+}
+
 .name-header {
   text-align: center;
   font-size: 4rem;
+}
+
+footer {
+  margin-top: 7rem;
 }
 
 footer ul {
@@ -148,7 +200,7 @@ footer ul li .mail:visited {
 }
 
 footer #page-end {
-  padding-top: 25px;
+  padding-top: 1rem;
   font-size: 0.9rem;
 }
 
@@ -157,6 +209,7 @@ nav {
   text-align: center;
   font-size: 1.3rem;
   width: 100%;
+  margin-bottom: 3rem;
 }
 
 nav ul {
