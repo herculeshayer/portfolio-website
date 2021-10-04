@@ -1,0 +1,41 @@
+#flex {
+    display: flex;
+    margin: 1rem auto 1rem auto;
+    width: 45rem;
+    flex-direction: column;
+    justify-content: center;
+    
+    #flex-item {
+        justify-self: center;
+        font-size: 1.1rem;
+        padding: 1rem;
+        // background-color: black;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        h1 {
+            margin-bottom: 0.5rem;
+        }
+        p{
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+        }
+        .single-proj:hover {
+            h1 {
+                transition: all 1s ease-in-out 0s;
+                // transition: cubic-bezier(.04,.79,.8,.09);
+                font-size: 3rem;
+            }
+                
+            
+            
+        }
+    }
+    
+}
+@media only screen and (max-width: 700px) {
+    #flex {
+        width: 25rem;
+    }
+}
