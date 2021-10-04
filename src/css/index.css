@@ -8,7 +8,7 @@ body {
 
 #hi {
   color: #b91414;
-  font-size: 6rem;
+  font-size: 8rem;
 }
 
 #grid {
@@ -55,7 +55,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 2.2rem;
+  font-size: 2.1rem;
   color: black;
 }
 
@@ -65,7 +65,7 @@ body {
 }
 
 #grid #grid-project #grid-project-item .single-project p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 #grid #grid-project #grid-project-item .single-project:hover {
@@ -108,6 +108,18 @@ body {
   }
 }
 
+#about-container {
+  display: block;
+  width: 40rem;
+  margin: 4rem auto;
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+#about-container p {
+  margin-bottom: 4rem;
+}
+
 #flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -126,7 +138,7 @@ body {
 #flex #flex-item {
   -ms-grid-column-align: center;
       justify-self: center;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   padding: 1rem;
 }
 
@@ -166,7 +178,7 @@ footer {
 }
 
 footer ul {
-  font-size: 1.4rem;
+  font-size: 1.15rem;
   text-align: center;
   list-style-type: none;
 }
