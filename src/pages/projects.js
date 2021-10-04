@@ -6,6 +6,7 @@ import Header from './../components/Header'
 
 import { projectpageLinks } from '../data/Data';
 
+import './../css/index.css';
 
 const Projects = () => {
     return(
