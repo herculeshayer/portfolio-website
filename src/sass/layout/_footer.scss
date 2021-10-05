@@ -1,18 +1,18 @@
 footer {
-    ul 
-    {
+    ul {
+        font-size: 1.15rem;
         text-align: center;
         list-style-type: none;
+        margin: 0;
+        padding: 0;
         li {
             padding-bottom: 8px;
             a {
                 text-decoration: none;
+                color: black;
             }
             a:visited {
                 color: black;
-            }
-            a:hover {
-                border-bottom: 1px solid black;
             }
             a:active {
                 color: rgb(65, 65, 65);
@@ -26,9 +26,10 @@ footer {
         } 
         
     }
+    margin-top: 7rem;
 
     #page-end {
-        padding-top: 25px;
-        font-size: 0.7rem;
+        padding-top: 1rem;
+        font-size: 0.9rem;
     }
 }

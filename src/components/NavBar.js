@@ -5,10 +5,12 @@ const NavBar = () => {
     return(
         <nav>
             <ul>
-                <li class ="grow"><Link to="/">home</Link></li>
-                <li class ="grow"><a href="https://resume.creddle.io/resume/47zeay722f2">resume</a></li>
-                <li class ="grow"><Link to="/projects">projects</Link></li>
-                <li class ="grow"><Link to="/about">about</Link></li>
+
+                <li class="grow"><Link to="/">home</Link></li>
+                <li class="grow"><a href="https://pdf-host-bucket.s3.us-west-2.amazonaws.com/resume-v7.pdf">resume</a></li>
+                <li class="grow"><Link to="/projects">projects</Link></li>
+                <li class="grow"><Link to="/aboutme">about</Link></li>
+
             </ul>
         </nav>
     );

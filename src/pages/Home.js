@@ -7,9 +7,9 @@ const Home = () => {
         <article id="grid">
 
             <div id="grid-bio-item">
-                <span><span id="hi">hi!</span> my names harman and i'm an aspiring software developer</span>
-                <p>i have created a few full stack applications currently hosted on several cloud providers</p>
-                <p>have a look around and stay a while!</p>
+                <span><span id="hi">hi!</span> my names harman and i am a software developer</span>
+                <p>this is my portfolio where you will find my work</p>
+                <p>have a look around and stay a while</p>
             </div>
             <div id="grid-project">
 
@@ -17,8 +17,8 @@ const Home = () => {
                     homepageLinks.map((project, key) => {
                         const { text, url, tools } = project;
                         return(
-                            <div id="grid-project-item">
-                                <a href={url}>
+                            <div id="grid-project-item" key={key}>
+                                <a className="single-project" href={url}>
                                     <h1>{text}</h1>
                                     <p>{tools}</p>
 
