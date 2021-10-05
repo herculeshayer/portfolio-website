@@ -3,6 +3,8 @@ footer {
         font-size: 1.15rem;
         text-align: center;
         list-style-type: none;
+        margin: 0;
+        padding: 0;
         li {
             padding-bottom: 8px;
             a {
@@ -11,9 +13,6 @@ footer {
             }
             a:visited {
                 color: black;
-            }
-            a:hover {
-                // border-bottom: 1px solid black;
             }
             a:active {
                 color: rgb(65, 65, 65);

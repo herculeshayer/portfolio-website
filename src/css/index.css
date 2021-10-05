@@ -181,6 +181,8 @@ footer ul {
   font-size: 1.15rem;
   text-align: center;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 footer ul li {
@@ -223,6 +225,8 @@ nav {
 
 nav ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul li {
@@ -252,7 +256,6 @@ nav ul li a:hover {
 
 @media only screen and (max-width: 700px) {
   nav ul li {
-    padding-top: 2rem;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -260,8 +263,8 @@ nav ul li a:hover {
 
 @media only screen and (max-width: 500px) {
   nav ul li {
-    display: block;
-    padding-top: 2rem;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
 /*# sourceMappingURL=index.css.map */
