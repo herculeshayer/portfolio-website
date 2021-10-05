@@ -6,7 +6,7 @@
   
 
 <h1 align="center">
-  Portfolio Website created using Gatsby.js
+  Software Development Portfolio
 </h1>
 
 ## 🚀 Visit the webpage @ www.hhayer.me
