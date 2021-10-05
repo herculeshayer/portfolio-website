@@ -8,7 +8,20 @@
     p {
         margin-bottom: 4rem;
     }
+}
 
-    
-
+@media only screen and (max-width: 700px) {
+    #about-container {
+        width: 30rem;
+    }
+}
+@media only screen and (max-width: 485px) {
+    #about-container {
+        width: 20rem;
+    }
+}
+@media only screen and (max-width: 350px) {
+    #about-container {
+        width: 10rem;
+    }
 }
