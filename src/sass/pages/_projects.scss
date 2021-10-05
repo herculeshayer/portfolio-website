@@ -9,7 +9,16 @@
         justify-self: center;
         font-size: 1.1rem;
         padding: 1rem;
-        // background-color: black;
+        
+        .single-proj {
+            display: inline-block;
+            transition: all 0.2s ease-in-out 0s;
+        }
+        .single-proj:hover {
+                // transition: cubic-bezier(.04,.79,.8,.09);
+            transform: scale(1.01);
+            // font-size: 250px;
+        }
         a{
             text-decoration: none;
             color: black;
@@ -21,16 +30,7 @@
             margin-top: 0;
             margin-bottom: 0.5rem;
         }
-        .single-proj:hover {
-            h1 {
-                transition: all 1s ease-in-out 0s;
-                // transition: cubic-bezier(.04,.79,.8,.09);
-                font-size: 3rem;
-            }
-                
-            
-            
-        }
+        
     }
     
 }

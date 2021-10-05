@@ -12,6 +12,13 @@ nav {
         margin: 0;
         padding: 0;
 
+        .grow {
+            transition: all .2s ease-in-out;
+        }
+        .grow:hover {
+            transform: scale(1.1);
+        }
+
         li {
             display: inline-block;
             padding-left: 100px;
@@ -23,10 +30,10 @@ nav {
             a:link, a:visited {
                 color: $primary-color;
             }
-            a:hover {
-                border-bottom: 1px solid $primary-color;
-            }
-
+            // a:hover {
+            //     border-bottom: 1px solid $primary-color;
+            // }
+            
         }
     }
     margin-bottom: 3rem;

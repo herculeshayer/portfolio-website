@@ -71,7 +71,7 @@ body {
 #grid #grid-project #grid-project-item .single-project:hover {
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
-  font-size: 2.8rem;
+  font-size: 2.4rem;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -160,6 +160,17 @@ body {
   padding: 1rem;
 }
 
+#flex #flex-item .single-proj {
+  display: inline-block;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+#flex #flex-item .single-proj:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
 #flex #flex-item a {
   text-decoration: none;
   color: black;
@@ -172,12 +183,6 @@ body {
 #flex #flex-item p {
   margin-top: 0;
   margin-bottom: 0.5rem;
-}
-
-#flex #flex-item .single-proj:hover h1 {
-  -webkit-transition: all 1s ease-in-out 0s;
-  transition: all 1s ease-in-out 0s;
-  font-size: 3rem;
 }
 
 @media only screen and (max-width: 700px) {
@@ -247,6 +252,16 @@ nav ul {
   padding: 0;
 }
 
+nav ul .grow {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+nav ul .grow:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 nav ul li {
   display: inline-block;
   padding-left: 100px;
@@ -257,17 +272,9 @@ nav ul li a {
   text-decoration: none;
 }
 
-
 nav ul li a:link, nav ul li a:visited {
   color: black;
 }
-nav ul .grow {
-  transition: all .2s ease-in-out;
-}
-nav ul .grow:hover {
-  transform: scale(1.1);
-}
-
 
 @media only screen and (max-width: 1100px) {
   nav ul li {
