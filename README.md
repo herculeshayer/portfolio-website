@@ -1,6 +1,6 @@
 <p align="center">
   
-    <img alt="Mandala" src="./assets/images/mandala.svg" width="60" />
+    <img alt="Mandala" src="./src/assets/images/mandala.svg" width="60" />
   
 </p>
 <h1 align="center">
