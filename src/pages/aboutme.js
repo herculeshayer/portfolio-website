@@ -14,29 +14,30 @@ const About = () => {
                     <div>
                         <p>
                             <b>intro</b>: 
-                            it began in college.
-                            i remember my first programming class, i had absolutely no idea what was going on.
-                            regardless, it stuck, and here i am. 
+                            
+                            i remember my first programming class, i failed it. 
+                            in order to get my diploma, i needed the credit so i took it again.
+                            this time, i kinda liked it. 
+                            the rest is history.
 
-                            i transferred my credits from my computer information systems diploma and entered a 
-                            computing science program @ tru where im currently a 3rd year compsci student
+                            
                         </p>
                     </div>
                     <div>
                         <p>
                             <b>journey</b>: 
-                            i honestly did not think i would ever find something id enjoy doing as a career, until i discovered 
-                            system administration & software development. looking back on the 
-                            previous year, i have gained an absurd amount of knowledge. i had not heard of terms like frontend or backend, and
-                            now i am building web apps with react & node from scratch. do not get me wrong, i am no master, i am still learning; although, its much easier 
-                            now, and my scope has expanded exponentially
+                            i was one of those kids that never knew what theyd do. 
+                            i went from career to career in hopes of finding something id enjoy. 
+                            well, i eventually stumbled onto something i like more than anything else ive tried, and im not letting go.
+                            
                         </p>
                     </div>
                         <p>
                             <b>interest</b>: 
-                            i weight-train, run, meditate, stretch, read, write, watch films, listen to music,
+                            i weight-train, run, meditate, yoga, read, write, watch films, listen to music,
                             hike, practice jiujitsu (anything combat sport related, honestly), ride motorcycles (had to sell it for tuition but i plan to purchase another),
                             play video games on occasion, and get into trouble with friends
+                            
                         </p>
                     <div>
                         <p>
