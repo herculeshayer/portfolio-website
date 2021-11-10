@@ -5,23 +5,20 @@
 
 
 const homepageLinks = [
-    
-    {
-      text: "grit & gain",
-      url: "https://github.com/herculeshayer/grit-and-gain",
-      tools: "react, node, express, mongo, aws",
-      
-    },
     {
       text: "minidoro",
       url: "https://github.com/herculeshayer/minidoro",
       tools: "html, sass, javascript, node, express, heroku",
-      
     },
     {
       text: "chirpy",
       url: "https://github.com/herculeshayer/chirpy",
       tools: "node, express, mongodb, heroku",
+    },
+    {
+      text: "grit & gain",
+      url: "https://github.com/herculeshayer/grit-and-gain",
+      tools: "react, node, express, mongo, aws",
       
     },
     {
@@ -34,11 +31,11 @@ const homepageLinks = [
 
 const projectpageLinks = [
   {
-    text: "grit & gain",
-    source: "https://github.com/herculeshayer/grit-and-gain",
+    text: "3",
+    source: "https://github.com/herculeshayer/treeeeee",
     live: "https://gritandgain.netlify.app/",
-    description: "a full-stack mern blog website hosted on aws utilizing ci/cd. the frontend is created using react and the backend uses node, express, and mongodb",
-    tools: "react, node, express, mongodb + mongodb atlas, aws",
+    description: "a full-stack e-commerce website hosted on aws. the frontend is created using react and the backend uses java spring boot, and postgresql",
+    tools: "react, sass, java, spring boot, aws",
     
   },
   {
@@ -58,6 +55,14 @@ const projectpageLinks = [
     
   },
   {
+    text: "grit & gain",
+    source: "https://github.com/herculeshayer/grit-and-gain",
+    live: "https://gritandgain.netlify.app/",
+    description: "a full-stack mern blog website hosted on aws utilizing ci/cd. the frontend is created using react and the backend uses node, express, and mongodb",
+    tools: "react, node, express, mongodb + mongodb atlas, aws",
+    
+  },
+  {
     text: "cinemax",
     source: "https://github.com/herculeshayer/CineMax",
     live: "",
@@ -71,8 +76,6 @@ const projectpageLinks = [
     description: "a portfolio webpage created using gatsby and hosted on netlify",
     tools: "html, sass, gatsby, netlify",
   },
-  
-
 ]
 
 export {
