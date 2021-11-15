@@ -9,7 +9,7 @@ const Footer = () => {
                 <li><a href="https://www.linkedin.com/in/harman-hayer/">linkedin.com/harmanhayer</a></li>
 
 
-                <li id="page-end">designed w/ love by harman</li>
+                <li id="page-end">designed w/ ❤️ by harman</li>
             </ul>
         </footer>
     );
