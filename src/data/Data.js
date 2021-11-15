@@ -11,6 +11,11 @@ const homepageLinks = [
       tools: "html, sass, javascript, node, express, heroku",
     },
     {
+      text: "airdex",
+      url: "https://github.com/herculeshayer/airdex",
+      tools: "react, sass, chartjs, aws, netlify",
+    },
+    {
       text: "chirpy",
       url: "https://github.com/herculeshayer/chirpy",
       tools: "node, express, mongodb, heroku",
@@ -21,11 +26,6 @@ const homepageLinks = [
       tools: "react, node, express, mongo, aws",
       
     },
-    {
-      text: "portfolio",
-      url: "https://github.com/herculeshayer/portfolio-website",
-      tools: "html, sass, gatsby, netlify",
-    },
     
   ]
 
@@ -34,7 +34,7 @@ const projectpageLinks = [
     text: "3",
     source: "https://github.com/herculeshayer/treeeeee",
     live: "https://gritandgain.netlify.app/",
-    description: "a full-stack e-commerce website hosted on aws. the frontend is created using react and the backend uses java spring boot, and postgresql",
+    description: "a full-stack e-commerce website hosted on aws amplify & aws beanstalk. the frontend is created using react and the backend uses java spring boot, and postgresql",
     tools: "react, sass, java, spring boot, aws",
     
   },
@@ -44,6 +44,14 @@ const projectpageLinks = [
     live: "https://minidoro.herokuapp.com/",
     description: "a full stack application created using node and postgresql. users have access to register, login, and work session tracking functionality",
     tools: "html, sass, javascript, node, express, jwt, postgresql, heroku",
+    
+  },
+  {
+    text: "airdex",
+    source: "https://github.com/herculeshayer/airdex",
+    live: "https://airdex.netlify.app/",
+    description: "frontend react app utilizing an external api for users to search and display air quality index forecasts",
+    tools: "react, sass, chartjs, git, aws, netlify",
     
   },
   {
@@ -63,18 +71,18 @@ const projectpageLinks = [
     
   },
   {
-    text: "cinemax",
-    source: "https://github.com/herculeshayer/CineMax",
-    live: "",
-    description: "a mobile application created using java. users can register for an account, login, select movie tickets, concessions, seating, and manage their account",
-    tools: "java, javafx, linux, apache, mysql",
-  },
-  {
     text: "portfolio",
     source: "https://github.com/herculeshayer/portfolio-website",
     live: "https://hhayer.me/",
     description: "a portfolio webpage created using gatsby and hosted on netlify",
     tools: "html, sass, gatsby, netlify",
+  },
+  {
+    text: "cinemax",
+    source: "https://github.com/herculeshayer/CineMax",
+    live: "",
+    description: "a mobile application created using java. users can register for an account, login, select movie tickets, concessions, seating, and manage their account",
+    tools: "java, javafx, linux, apache, mysql",
   },
 ]
 
