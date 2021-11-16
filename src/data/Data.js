@@ -8,7 +8,7 @@ const homepageLinks = [
     {
       text: "minidoro",
       url: "https://github.com/herculeshayer/minidoro",
-      tools: "html, sass, javascript, node, express, heroku",
+      tools: "html, sass, javascript, node, express, jwt, postgresql, heroku",
     },
     {
       text: "airdex",
@@ -23,7 +23,7 @@ const homepageLinks = [
     {
       text: "grit & gain",
       url: "https://github.com/herculeshayer/grit-and-gain",
-      tools: "react, node, express, mongo, aws",
+      tools: "react, node, express, mongodb, aws",
       
     },
     
@@ -76,7 +76,7 @@ const projectpageLinks = [
     text: "cinemax",
     source: "https://github.com/herculeshayer/CineMax",
     live: "",
-    description: "a mobile application created using java. users can register for an account, login, select movie tickets, concessions, seating, and manage their account",
+    description: "an application created using java and javafx. user data is stored using mysql. users can register for an account, login, select movie tickets, concessions, seating, and manage their account",
     tools: "java, javafx, linux, apache, mysql",
   },
 ]
