@@ -7,7 +7,8 @@ const Home = () => {
         <article id="grid">
 
             <div id="grid-bio-item">
-                <span><span id="hi">hi!</span> my names harman and i am a software developer</span>
+                <span id="hi">hi!</span>
+                <div>my names harman and i am a software developer</div>
                 <p>this is my portfolio where you will find my work</p>
                 <p>have a look around and stay a while</p>
             </div>

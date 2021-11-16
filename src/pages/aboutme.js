@@ -17,34 +17,30 @@ const About = () => {
                             
                             i remember my first programming class, i failed it. 
                             in order to get my diploma, i needed the credit so i took it again.
-                            this time, i kinda liked it. 
-                            the rest is history.
-
-                            
+                            this time, i passed and kinda liked it. 
+                            i passed the class and began looking into it in my spare time
                         </p>
                     </div>
                     <div>
                         <p>
                             <b>journey</b>: 
-                            i was one of those kids that never knew what theyd do. 
+                            i was one of those kids that never knew what career to choose, there are so many options.
                             i went from career to career in hopes of finding something id enjoy. 
-                            well, i eventually stumbled onto something i like more than anything else ive tried, and im not letting go.
+                            well, eventually, i stumbled onto something. i liked it more than anything else id tried, 
+                            and decided id continue doing it until i no longer wanted to
                             
                         </p>
                     </div>
                         <p>
-                            <b>interest</b>: 
-                            i weight-train, run, meditate, yoga, read, write, watch films, listen to music,
-                            hike, practice jiujitsu (anything combat sport related, honestly), ride motorcycles (had to sell it for tuition but i plan to purchase another),
-                            play video games on occasion, and get into trouble with friends
-                            
+                            <b>interests</b>: 
+                            most weeks are filled with the following: 
+                            weight-training, meditation, yoga, reading, writing, and combat sports
                         </p>
                     <div>
                         <p>
-                            <b>goal</b>: 
+                            <b>goals</b>: 
                             my goals are simple. i am to become a software engineer with a distinction in cloud architecture, 
-                            and give back to others with what i have learned. i am also going to attempt a masters degree after my bachelors, 
-                            wish me luck
+                            and give back to others with what i have learned
                         </p>
                     </div>
                     <div>
