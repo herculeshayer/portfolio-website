@@ -18,23 +18,28 @@ const About = () => {
                             i remember my first programming class, i failed it. 
                             in order to get my diploma, i needed the credit so i took it again.
                             this time, i passed and kinda liked it. 
-                            i passed the class and began looking into it in my spare time
+                            so began my journey into software development with a sprinkle of system administration
                         </p>
                     </div>
                     <div>
                         <p>
                             <b>journey</b>: 
-                            i was one of those kids that never knew what career to choose, there are so many options.
+                            i was one of those kids that never knew what career to choose, there are just so many options.
                             i went from career to career in hopes of finding something id enjoy. 
                             well, eventually, i stumbled onto something. i liked it more than anything else id tried, 
-                            and decided id continue doing it until i no longer wanted to
+                            and decided id continue doing it until i no longer wanted to.
+                            surprise surprise, im still doing it and dont plan to stop anytime soon
                             
                         </p>
                     </div>
                         <p>
                             <b>interests</b>: 
                             most weeks are filled with the following: 
-                            weight-training, meditation, yoga, reading, writing, and combat sports
+                            weight-training, meditation, yoga, reading, writing, and coding. <br />
+                            other weeks: 
+                            motorcycle riding, combat sports, video games, or hiking
+
+
                         </p>
                     <div>
                         <p>
