@@ -8,7 +8,7 @@ const homepageLinks = [
     {
       text: "minidoro",
       url: "https://github.com/herculeshayer/minidoro",
-      tools: "html, sass, javascript, node, express, jwt, postgresql, heroku",
+      tools: "html, sass, react, node, express, jwt, postgresql, heroku",
     },
     {
       text: "airdex",
@@ -23,7 +23,7 @@ const homepageLinks = [
     {
       text: "grit & gain",
       url: "https://github.com/herculeshayer/grit-and-gain",
-      tools: "react, node, express, mongodb, aws",
+      tools: "html, css, react, node, express, mongodb, aws",
       
     },
     
@@ -41,8 +41,8 @@ const projectpageLinks = [
     text: "minidoro",
     source: "https://github.com/herculeshayer/minidoro",
     live: "https://minidoro.herokuapp.com/",
-    description: "a full stack application created using node and postgresql. users have access to register, login, and work session tracking functionality",
-    tools: "html, sass, javascript, node, express, jwt, postgresql, heroku", 
+    description: "a full-stack application created using react, node, and postgresql. users have access to register, login, and work session tracking functionality",
+    tools: "html, sass, react, node, express, jwt, postgresql, heroku, netlify", 
   },
   {
     text: "airdex",
@@ -63,7 +63,7 @@ const projectpageLinks = [
     source: "https://github.com/herculeshayer/grit-and-gain",
     live: "https://gritandgain.netlify.app/",
     description: "a full-stack mern blog website hosted on aws utilizing ci/cd. the frontend is created using react and the backend uses node, express, and mongodb",
-    tools: "react, node, express, mongodb + mongodb atlas, aws",
+    tools: "html, css, react, node, express, mongodb + mongodb atlas, aws",
   },
   {
     text: "portfolio",
