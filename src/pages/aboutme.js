@@ -14,46 +14,42 @@ const About = () => {
                     <div>
                         <p>
                             <b>intro</b>: 
-                            
-                            i remember my first programming class, i failed it. 
-                            in order to get my diploma, i needed the credit so i took it again.
-                            this time, i passed and kinda liked it. 
-                            so began my journey into software development with a sprinkle of system administration
+                            my names harman and i love trying difficult things especially if i suck at them.
+                            im stubborn and dont give up quickly, its almost a flaw.  
                         </p>
                     </div>
                     <div>
                         <p>
-                            <b>journey</b>: 
-                            i was one of those kids that never knew what career to choose, there are just so many options.
-                            i went from career to career in hopes of finding something id enjoy. 
-                            well, eventually, i stumbled onto something. i liked it more than anything else id tried, 
-                            and decided id continue doing it until i no longer wanted to.
-                            surprise surprise, im still doing it and dont plan to stop anytime soon
+                            <b>why??????programming???!??</b>: 
+                            i was one of those kids that never knew what career to choose, there are just so many options, how
+                            is anyone supposed to choose one.
+                            i went from college program to college program in hopes of finding something id enjoy, thinking about how itd never happen.
+                            <br/>i realized im just going to try as many things as i can and keep what i enjoy and discard what i dont.
                             
                         </p>
                     </div>
                         <p>
                             <b>interests</b>: 
-                            most weeks are filled with the following: 
-                            weight-training, meditation, yoga, reading, writing, and coding. <br />
-                            other weeks: 
-                            motorcycle riding, combat sports, video games, or hiking
+                            weekdays are filled with the following: 
+                            weight-training, meditation, stretching, reading, writing, and coding. <br />
+                            weekends: 
+                            video games, hiking, movies, and hanging out w/ like-minded baffoons
 
 
                         </p>
                     <div>
                         <p>
                             <b>goals</b>: 
-                            my goals are simple. i am to become a software engineer with a distinction in cloud architecture, 
-                            and give back to others with what i have learned
+                            become a software developer that also manages server architecture. 
+                            work for 15-20 yrs, retire, become a professor, teach 1-2 classes at a local college, die?
                         </p>
                     </div>
                     <div>
                         <p>
-                            <b>inspiration</b>: 
-                            i am interested in essentially two areas at this point in my life; teaching and technology. i want 
-                            to utilize my interests in technology and help others educate themselves and improve their lives
-                            through the process
+                            <b>favorite movie + book + video game</b>:  
+                            <br/>gladiator starring russel crowe and joaquin pheonix directed by ridley scott
+                            <br/>the stranger by albert camus || metamorphosis by franz kafka
+                            <br/>dark souls 1
                             
                         </p>
                     </div> 
