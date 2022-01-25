@@ -20,7 +20,7 @@ const About = () => {
                     </div>
                     <div>
                         <p>
-                            <b>why??????programming???!??</b>: 
+                            <b>why programming?</b>: 
                             i was one of those kids that never knew what career to choose, there are just so many options, how
                             is anyone supposed to choose one.
                             i went from college program to college program in hopes of finding something id enjoy, thinking about how itd never happen.
@@ -49,7 +49,7 @@ const About = () => {
                             <b>favorite movie + book + video game</b>:  
                             <br/>gladiator starring russel crowe and joaquin pheonix directed by ridley scott
                             <br/>the stranger by albert camus || metamorphosis by franz kafka
-                            <br/>dark souls 1
+                            <br/>dark souls 1 
                             
                         </p>
                     </div> 
