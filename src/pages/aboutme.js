@@ -13,15 +13,11 @@ const About = () => {
                 <article id="about-container">
                     <div>
 
-                        <h1 style={{"fontSize": 150}}>as of 16, february 2022 ive completed what i set out to do in sept/oct 2020</h1>
+                        <h1 style={{"fontSize": 150}}>sept/oct 2020 - feb 2022</h1>
+                        <h3 style={{"fontSize": 50}}>ful stack engineer - article may2022-janm2023</h3>
                         <p>
                             <b>intro</b>: 
-                            i was one of those kids that never knew what career to choose, there are just so many options, how
-                            is anyone supposed to choose one.
-                            i went from college program to college program in hopes of finding something id enjoy, thinking about how itd never happen.
-                            <br/><br/>i realized i am just going to try as many things as i can, keep what i enjoy, and discard what i dont. 
-                            
-                            
+                            i like dogs and hikes  
                         </p>
                     </div>
                         <p>
@@ -30,7 +26,6 @@ const About = () => {
                             weightlifting, walking, and programming. <br />
                             weekends: 
                             video games, hiking, movies, and hanging out w/ like-minded baffoons
-
                         </p>
                     <div>
                         <p>
@@ -38,8 +33,7 @@ const About = () => {
                             1/2/3/4 - gold in 77kg ibjjf - 25 books a year - own large acerage farm - raise well mannered children
                         </p>
                     </div>
-                    
-                    
+
                 </article>
             <Footer />
 
