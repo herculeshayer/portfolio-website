@@ -31,11 +31,18 @@ const homepageLinks = [
 
 const projectpageLinks = [
   {
+    text: "particle",
+    source: "https://github.com/herculeshayer/particle",
+    live: "https://gritandgain.netlify.app/",
+    description: "an article.com clone using vuejs and java spring boot",
+    tools: "vue, java, spring boot, tailwindcss, aws",
+  },
+  {
     text: "3",
     source: "https://github.com/herculeshayer/treeeeee",
     live: "https://gritandgain.netlify.app/",
-    description: "a full-stack e-commerce website hosted on aws amplify & aws beanstalk. the frontend is created using react and the backend uses java spring boot, and postgresql",
-    tools: "react, sass, java, spring boot, postgresql, aws",
+    description: "this is to experiment with different tools",
+    tools: "typescript, nextjs, graphql, mongodb, aws",
   },
   {
     text: "minidoro",

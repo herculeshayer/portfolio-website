@@ -7,10 +7,10 @@ const Home = () => {
         <article id="grid">
 
             <div id="grid-bio-item">
-                <span id="hi">hi!</span>
-                <div>my names harman and i am a software developer</div>
-                <p>this is my portfolio where you will find my work</p>
-                <p>have a look around and stay a while</p>
+                <span id="hi">bonjour!</span>
+                <div>i am big guy</div>
+                <p>this is my portfolio where you will find my big guy work</p>
+                <p>subscribe like and comment okay thanks bye!</p>
             </div>
             <div id="grid-project">
 
