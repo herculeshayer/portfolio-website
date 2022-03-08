@@ -20,19 +20,18 @@ const About = () => {
                             i like dogs and hikes  
                         </p>
                     </div>
-                        <p>
-                            <b>interests</b>: 
-                            weekdays are filled with the following: 
-                            weightlifting, walking, and programming. <br />
-                            weekends: 
-                            anything i feel like doing
-                        </p>
                     <div>
                         <p>
                             <b>goals</b>: 
                             1/2/3/4 - gold in 77kg ibjjf - 25 books a year - farm - raise well mannered children
                         </p>
                     </div>
+                        <p>
+                            you can't give up. once youre in it, youre in it and you've got to go all the way to the end, because you commit yourself to such a level where there is no compromise. you give everything you have, everything absolutely everything. and sometimes you find even more, because it requires more if you want still to be ahead, if you want to win - ayrton senna
+                        </p>
+                        <p>
+                            i am natures greatest miracle - homer simpson
+                        </p>
 
                 </article>
             <Footer />

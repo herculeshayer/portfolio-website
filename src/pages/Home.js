@@ -8,8 +8,8 @@ const Home = () => {
 
             <div id="grid-bio-item">
                 <span id="hi">bonjour!</span>
-                <div>i am big guy</div>
-                <p>this is my portfolio where you will find my big guy work</p>
+                <div>as long as you live, keep learning how to live - seneca</div>
+                <p>your time is limited, so dont waste it living someone elses life - steve jobs</p>
                 <p>subscribe like and comment okay thanks bye!</p>
             </div>
             <div id="grid-project">
