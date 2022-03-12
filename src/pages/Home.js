@@ -10,7 +10,7 @@ const Home = () => {
                 <span id="hi">bonjour!</span>
                 <div>as long as you live, keep learning how to live - seneca</div>
                 <p>your time is limited, so dont waste it living someone elses life - steve jobs</p>
-                <p>subscribe like and comment okay thanks bye!</p>
+                <p><a href="https://www.youtube.com/watch?v=Hj0UvmXrQC0">thanks for stopping by!</a></p>
             </div>
             <div id="grid-project">
 
