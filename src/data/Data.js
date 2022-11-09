@@ -30,19 +30,13 @@ const homepageLinks = [
   ]
 
 const projectpageLinks = [
-  {
-    text: "particle",
-    source: "https://github.com/herculeshayer/particle",
-    live: "https://gritandgain.netlify.app/",
-    description: "an article.com clone using vuejs and java spring boot",
-    tools: "vue, java, spring boot, tailwindcss, aws",
-  },
+  
   {
     text: "3",
-    source: "https://github.com/herculeshayer/treeeeee",
+    source: "https://github.com/herculeshayer/3",
     live: "https://gritandgain.netlify.app/",
-    description: "this is to experiment with different tools",
-    tools: "typescript, nextjs, graphql, mongodb, aws",
+    description: "e-commerce website for tree enthusiasts",
+    tools: "typescript, react, sass, java spring boot, aws",
   },
   {
     text: "minidoro",

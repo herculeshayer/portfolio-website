@@ -1,75 +1,53 @@
 @import url("https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap");
 body {
-  font-family: 'Oranienbaum', serif;
+  font-family: "Oranienbaum", serif;
   font-weight: 400;
   margin: 0 auto;
   padding: 0;
 }
 
 #hi {
-  color: #b91414;
+  color: rgb(185, 20, 20);
   font-size: 8rem;
 }
 
 #grid {
-  display: -ms-grid;
   display: grid;
   font-size: 1.7rem;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   width: 60rem;
-  -ms-grid-rows: auto;
-      grid-template-rows: auto;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
   margin: 0rem auto 0rem auto;
 }
-
 #grid h1 {
   margin: 10px 4px;
 }
-
 #grid #grid-bio-item {
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  justify-content: start;
   margin: 50px;
 }
-
 #grid #grid-project {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 #grid #grid-project #grid-project-item {
   margin: 3px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   font-size: 2.1rem;
   color: black;
 }
-
 #grid #grid-project #grid-project-item .single-project {
   text-decoration: none;
   color: black;
 }
-
 #grid #grid-project #grid-project-item .single-project p {
   font-size: 1.1rem;
 }
-
 #grid #grid-project #grid-project-item .single-project:hover {
-  -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
   font-size: 2.4rem;
 }
@@ -79,35 +57,26 @@ body {
     width: 50rem;
   }
   #grid #grid-project {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    -ms-grid-rows: (1fr)[4];
-        grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
   }
 }
-
 @media only screen and (max-width: 800px) {
   #grid {
     width: 30rem;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    -ms-grid-rows: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
   }
   #grid #grid-project {
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
 }
-
 @media only screen and (max-width: 550px) {
   #grid {
     width: 100%;
   }
 }
-
 #about-container {
   display: block;
   width: 40rem;
@@ -115,7 +84,6 @@ body {
   text-align: left;
   font-size: 1.1rem;
 }
-
 #about-container p {
   margin-bottom: 4rem;
 }
@@ -125,61 +93,42 @@ body {
     width: 30rem;
   }
 }
-
 @media only screen and (max-width: 485px) {
   #about-container {
     width: 20rem;
   }
 }
-
 @media only screen and (max-width: 350px) {
   #about-container {
     width: 10rem;
   }
 }
-
 #flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: 1rem auto 1rem auto;
   width: 45rem;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
-
 #flex #flex-item {
-  -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
   font-size: 1.1rem;
   padding: 1rem;
 }
-
 #flex #flex-item .single-proj {
   display: inline-block;
-  -webkit-transition: all 0.2s ease-in-out 0s;
   transition: all 0.2s ease-in-out 0s;
 }
-
 #flex #flex-item .single-proj:hover {
-  -webkit-transform: scale(1.01);
-          transform: scale(1.01);
+  transform: scale(1.01);
 }
-
 #flex #flex-item a {
   text-decoration: none;
   color: black;
 }
-
 #flex #flex-item h1 {
   margin-bottom: 0.5rem;
 }
-
 #flex #flex-item p {
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -190,7 +139,6 @@ body {
     width: 25rem;
   }
 }
-
 .name-header {
   text-align: center;
   font-size: 4rem;
@@ -199,7 +147,6 @@ body {
 footer {
   margin-top: 7rem;
 }
-
 footer ul {
   font-size: 1.15rem;
   text-align: center;
@@ -207,32 +154,25 @@ footer ul {
   margin: 0;
   padding: 0;
 }
-
 footer ul li {
   padding-bottom: 8px;
 }
-
 footer ul li a {
   text-decoration: none;
   color: black;
 }
-
 footer ul li a:visited {
   color: black;
 }
-
 footer ul li a:active {
-  color: #414141;
+  color: rgb(65, 65, 65);
 }
-
 footer ul li .mail {
   color: black;
 }
-
 footer ul li .mail:visited {
   color: black;
 }
-
 footer #page-end {
   padding-top: 1rem;
   font-size: 0.9rem;
@@ -245,33 +185,25 @@ nav {
   width: 100%;
   margin-bottom: 3rem;
 }
-
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-
 nav ul .grow {
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-
 nav ul .grow:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
-
 nav ul li {
   display: inline-block;
   padding-left: 100px;
   padding-right: 100px;
 }
-
 nav ul li a {
   text-decoration: none;
 }
-
 nav ul li a:link, nav ul li a:visited {
   color: black;
 }
@@ -282,18 +214,17 @@ nav ul li a:link, nav ul li a:visited {
     padding-right: 50px;
   }
 }
-
 @media only screen and (max-width: 700px) {
   nav ul li {
     padding-left: 20px;
     padding-right: 20px;
   }
 }
-
 @media only screen and (max-width: 500px) {
   nav ul li {
     padding-left: 5px;
     padding-right: 5px;
   }
 }
+
 /*# sourceMappingURL=index.css.map */

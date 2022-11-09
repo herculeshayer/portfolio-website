@@ -12,18 +12,20 @@ const About = () => {
             <NavBar />
                 <article id="about-container">
                     <div>
+                        <p><b>experience</b>: full metal software alchemist intern @ article :: may2022-aug2022</p>
+                    </div>
 
-                        <h1 style={{"fontSize": 150}}>sept/oct 2020 - feb 2022</h1>
-                        <h3 style={{"fontSize": 50}}>full metal software alchemist - article may2022-jan2023</h3>
+                    <div>
+                        
                         <p>
                             <b>intro</b>: 
-                            i like dags and hikes  
+                            i like dags and hikes and film and rice
                         </p>
                     </div>
                     <div>
                         <p>
                             <b>goals</b>: 
-                            1/2/3/4 - gold in 77kg ibjjf - 25 books a year - farm - raise well mannered children
+                            to become that guy
                         </p>
                     </div>
                         <p>
