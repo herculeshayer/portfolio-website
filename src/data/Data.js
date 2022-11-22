@@ -32,11 +32,25 @@ const homepageLinks = [
 const projectpageLinks = [
   
   {
-    text: "3",
-    source: "https://github.com/herculeshayer/3",
+    text: "bearbnb",
+    source: "https://github.com/herculeshayer/bearbnb",
     live: "https://gritandgain.netlify.app/",
-    description: "e-commerce website for tree enthusiasts",
-    tools: "typescript, react, sass, java spring boot, aws",
+    description: "airbnb clone",
+    tools: "typescript, reactjs, sass, java spring boot, postgresql, aws",
+  },
+  {
+    text: "thread",
+    source: "https://github.com/herculeshayer/thread",
+    live: "https://google.ca",
+    description: "e-commerce website for cloth lovers",
+    tools: "typescript, nextjs, sass, postgresql, aws",
+  },
+  {
+    text: "iron",
+    source: "https://github.com/herculeshayer/iron",
+    live: "https://gritandgain.netlify.app/",
+    description: "ios workout tracker",
+    tools: "swift, aws",
   },
   {
     text: "minidoro",
