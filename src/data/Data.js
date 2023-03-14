@@ -32,25 +32,39 @@ const homepageLinks = [
 const projectpageLinks = [
   
   {
-    text: "3",
-    source: "https://github.com/herculeshayer/3",
+    text: "alienator",
+    source: "https://github.com/herculeshayer/alienator",
     live: "https://gritandgain.netlify.app/",
-    description: "e-commerce website for tree enthusiasts",
-    tools: "typescript, react, sass, java spring boot, aws",
+    description: "parse UFO data from API & display to client",
+    tools: "typescript, nextjs, tailwindcss, aws",
   },
+  {
+    text: "thread",
+    source: "https://github.com/herculeshayer/thread",
+    live: "https://google.ca",
+    description: "e-commerce website for clothing lovers",
+    tools: "typescript, nextjs, tailwindcss, postgresql, aws",
+  },
+  // {
+  //   text: "iron",
+  //   source: "https://github.com/herculeshayer/iron",
+  //   live: "https://gritandgain.netlify.app/",
+  //   description: "ios workout tracker",
+  //   tools: "swift, aws",
+  // },
   {
     text: "minidoro",
     source: "https://github.com/herculeshayer/minidoro",
     live: "https://minidoro.herokuapp.com/",
     description: "a full-stack application created using react, node, and postgresql. users have access to register, login, and work session tracking functionality",
-    tools: "html, sass, react, node, express, jwt, postgresql, heroku, netlify", 
+    tools: "html, scss, react, node, express, jwt, aws rds, render, netlify", 
   },
   {
     text: "airdex",
     source: "https://github.com/herculeshayer/airdex",
     live: "https://airdex.netlify.app/",
     description: "frontend react app utilizing an external api for users to search and display air quality index forecasts",
-    tools: "react, sass, chartjs, git, aws, netlify",
+    tools: "react, scss, chartjs, git, aws, netlify",
   },
   {
     text: "chirpy",
@@ -71,7 +85,7 @@ const projectpageLinks = [
     source: "https://github.com/herculeshayer/portfolio-website",
     live: "https://hhayer.me/",
     description: "a portfolio webpage created using gatsby and hosted on netlify",
-    tools: "html, sass, gatsby, netlify",
+    tools: "html, scss, gatsby, netlify",
   },
   {
     text: "cinemax",
