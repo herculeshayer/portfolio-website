@@ -5,37 +5,43 @@
 
 
 const homepageLinks = [
-    {
-      text: "minidoro",
-      url: "https://github.com/herculeshayer/minidoro",
-      tools: "html, sass, react, node, express, jwt, postgresql, heroku",
-    },
-    {
-      text: "airdex",
-      url: "https://github.com/herculeshayer/airdex",
-      tools: "react, sass, chartjs, aws, netlify",
-    },
-    {
-      text: "chirpy",
-      url: "https://github.com/herculeshayer/chirpy",
-      tools: "node, express, mongodb, heroku",
-    },
-    {
-      text: "grit & gain",
-      url: "https://github.com/herculeshayer/grit-and-gain",
-      tools: "html, css, react, node, express, mongodb, aws",
-      
-    },
+  {
+    text: "computer vision object detection",
+    url: "https://github.com/herculeshayer/computer-vision-opencv",
+    tools: "python, opencv, aws",
+  },
+  {
+    text: "ufo data visualizer",
+    url: "https://github.com/herculeshayer/alienator",
+    tools: "typescript, nextjs, tailwindcss, sass, vercel, aws",
     
-  ]
+  },
+  {
+    text: "minidoro",
+    url: "https://github.com/herculeshayer/minidoro",
+    tools: "html, sass, react, node, express, jwt, postgresql, heroku",
+  },
+  {
+    text: "airdex",
+    url: "https://github.com/herculeshayer/airdex",
+    tools: "react, sass, chartjs, aws, netlify",
+  }, 
+]
 
 const projectpageLinks = [
-  
+
   {
-    text: "alienator",
+    text: "computer vision object detection",
+    source: "https://github.com/herculeshayer/computer-vision-opencv",
+    live: "https://gritandgain.netlify.app/",
+    description: "object detection application, view object speed and alert if above threshold",
+    tools: "python, opencv, aws",
+  },
+  {
+    text: "ufo data visualizer",
     source: "https://github.com/herculeshayer/alienator",
     live: "https://gritandgain.netlify.app/",
-    description: "parse UFO data from API & display to client",
+    description: "parse UFO data from personal api & display to client",
     tools: "typescript, nextjs, tailwindcss, aws",
   },
   {

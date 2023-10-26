@@ -9,8 +9,8 @@ const Home = () => {
             <div id="grid-bio-item">
                 <span id="hi">hello!</span>
                 <div>here you'll find a few projects of mine with their description & technologies used</div>
-                <p>projects are created mainly for my own curiosity & growth</p>
-                <p>thanks for stopping by! </p>
+                <p>projects are created primarily for personal curiosity & growth</p>
+                {/* <p>thanks for stopping by! </p> */}
             </div>
             <div id="grid-project">
 
