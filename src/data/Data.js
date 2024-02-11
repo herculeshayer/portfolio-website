@@ -1,20 +1,14 @@
-// import HemoImage from "../images/blood-drop.svg";
-// import TODO from "../images/todo.png";
-// import Barbell from "../images/barbell.svg";
-
-
 
 const homepageLinks = [
   {
-    text: "computer vision object detection",
-    url: "https://github.com/herculeshayer/computer-vision-opencv",
-    tools: "python, opencv, aws",
+    text: "peak",
+    url: "https://github.com/herculeshayer/peak",
+    tools: "swift, swiftui, xcode, openai",
   },
   {
-    text: "ufo data visualizer",
-    url: "https://github.com/herculeshayer/alienator",
-    tools: "typescript, nextjs, tailwindcss, sass, vercel, aws",
-    
+    text: "vehicle speed detection",
+    url: "https://github.com/herculeshayer/computer-vision-opencv",
+    tools: "python, opencv, aws",
   },
   {
     text: "minidoro",
@@ -29,35 +23,20 @@ const homepageLinks = [
 ]
 
 const projectpageLinks = [
-
   {
-    text: "computer vision object detection",
+    text: "peak",
+    source: "https://github.com/herculeshayer/peak",
+    live: "https://gritandgain.netlify.app/",
+    description: "simple mobile workout app utilizing openai api",
+    tools: "swift, swiftui, xcode, openai",
+  },
+  {
+    text: "computer vision object speed detection",
     source: "https://github.com/herculeshayer/computer-vision-opencv",
     live: "https://gritandgain.netlify.app/",
     description: "object detection application, view object speed and alert if above threshold",
     tools: "python, opencv, aws",
   },
-  {
-    text: "ufo data visualizer",
-    source: "https://github.com/herculeshayer/alienator",
-    live: "https://gritandgain.netlify.app/",
-    description: "parse UFO data from personal api & display to client",
-    tools: "typescript, nextjs, tailwindcss, aws",
-  },
-  {
-    text: "thread",
-    source: "https://github.com/herculeshayer/thread",
-    live: "https://google.ca",
-    description: "e-commerce website for clothing lovers",
-    tools: "typescript, nextjs, tailwindcss, postgresql, aws",
-  },
-  // {
-  //   text: "iron",
-  //   source: "https://github.com/herculeshayer/iron",
-  //   live: "https://gritandgain.netlify.app/",
-  //   description: "ios workout tracker",
-  //   tools: "swift, aws",
-  // },
   {
     text: "minidoro",
     source: "https://github.com/herculeshayer/minidoro",
