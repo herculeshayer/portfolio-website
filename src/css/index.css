@@ -177,6 +177,9 @@ footer #page-end {
   padding-top: 1rem;
   font-size: 0.9rem;
 }
+footer #page-end span {
+  color: rgb(211, 23, 23);
+}
 
 nav {
   display: inline-block;
